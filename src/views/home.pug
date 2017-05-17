@@ -1,0 +1,25 @@
+extends index.pug
+
+block content
+
+  .container-colums
+    .colum
+      h2 Profile
+      .profile
+        .displayProfileImg
+          img(src="/static/css/assets/wallpaper.png")
+        p #{name}
+
+        p #{occupation}
+
+        p #{email}
+
+    .colum
+      h2 Last Online
+      #recent
+    .colum
+      .searchBar
+        form(method='GET' class='searchForm' action='search')
+          input(name="occupation" type="text" placeholder="Search" )
+          button(type='submit' id='searchSubmit') Search
+      #searchResult

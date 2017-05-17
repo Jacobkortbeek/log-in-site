@@ -1,0 +1,8 @@
+.container
+  .menuIcon ☰
+  nav.nav
+    a(href="home") Home
+    a(href="edit") Edit
+    if !currentUser
+      a(href="3") not user
+    a(href="/signout") Sign Out

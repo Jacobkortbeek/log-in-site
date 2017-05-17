@@ -1,0 +1,14 @@
+extends index.pug
+
+block content
+  .logInForm
+    h1 Welcome To This Login Form
+    form(method='POST' action='/')
+      input(name="email" type="text" placeholder="Email" )
+      input(name="password" type="password" placeholder="Password" )
+      button(type="submit").logInBtn Log On In
+    a(href="register").signUp
+      button Sign Up
+      .forgotPwrd
+        a(href="#")
+          p Forgot Your Password?

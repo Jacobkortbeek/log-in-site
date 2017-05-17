@@ -1,0 +1,12 @@
+extends index.pug
+
+block content
+
+  .signUpContainer
+    h1 Email Us!
+    form(method="POST" action="/sayHello")
+      input(name="name" type="text" placeholder="Full Name")
+      input(name="email" type="text" placeholder="Email Address")
+      input(name="subject" type="text" placeholder="Subject")
+      textarea(name="message" type="text" placeholder="Your Message...")
+      button(href="mailsent") Send Message

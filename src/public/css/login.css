@@ -1,0 +1,52 @@
+body main .signUpContainer, body main .logInForm {
+  width: 70em;
+  height: 40em;
+  margin: auto;
+  margin-top: 10em; }
+  body main .signUpContainer input, body main .logInForm input {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    width: 45em;
+    height: 3em;
+    margin-bottom: 1.5em;
+    border-radius: 0.5em;
+    border-style: solid;
+    border: none;
+    outline: none; }
+  body main .signUpContainer textarea, body main .logInForm textarea {
+    font-family: 'Varela Round', sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    border-radius: 0.5em;
+    border-style: solid;
+    border: none;
+    outline: none;
+    margin: 0px;
+    height: 15em;
+    width: 45em;
+    margin-bottom: 1.5em; }
+  body main .signUpContainer button, body main .logInForm button {
+    width: 35em;
+    height: 2.5em;
+    margin-bottom: 1em;
+    color: aliceblue;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.3em;
+    border-radius: 0.5em;
+    background-color: steelblue;
+    border-style: solid;
+    border: none;
+    outline: none; }
+  body main .signUpContainer button:active, body main .logInForm button:active {
+    background-color: #6ca2d7; }
+  body main .signUpContainer button:hover, body main .logInForm button:hover {
+    cursor: pointer; }
+  body main .signUpContainer .forgotPwrd, body main .logInForm .forgotPwrd {
+    margin: auto;
+    margin-top: 0.5em; }
+    body main .signUpContainer .forgotPwrd p, body main .logInForm .forgotPwrd p {
+      font-family: 'Varela Round', sans-serif;
+      color: steelblue; }

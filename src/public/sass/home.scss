@@ -1,0 +1,120 @@
+
+
+//===============================================================
+//colums
+//===============================================================
+.colum{
+  width: 35em;
+  height: 60em;
+  border-radius: 1em;
+  color: steelblue;
+  background-color: white;
+  display: inline-block;
+  margin-right: 3em;
+  overflow: hidden;
+}
+
+//===============================================================
+//colum profile
+//===============================================================
+
+.profile{
+
+  .editProfile {
+    width: 5em;
+    height: 1.5em;
+    position: relative;
+    left: 1em;
+    margin-top: 0.9em;
+    p {
+      margin-top: 0.8em;
+      font-size: 1.5em;
+    }
+  }
+
+  .displayProfileImg {
+    width: 10em;
+    height: 10em;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    overflow: hidden;
+
+    img {
+      width: 10em;
+      height: 10em;
+    }
+  }
+
+  p {
+    font-size: 2em;
+    margin-bottom: 3em;
+    color: steelblue;
+  }
+}
+
+//===============================================================
+//colum recently online
+//===============================================================
+
+.recentOnline {
+  overflow: hidden;
+  background-color: skyblue;
+  margin: auto;
+  height: 8em;
+  width: 34em;
+  border-radius: 1em;
+  margin-top: 0.5em;
+  .displayPic {
+    overflow: hidden;
+    height: 7em;
+    width: 7em;
+    border-radius: 1em;
+    margin-left: 0.5em;
+    margin-top: 0.3em;
+  }
+  img{
+    height: 7em;
+    width: 7em;
+  }
+  p {
+    margin-left: 6em;
+  }
+}
+
+//===============================================================
+//serach
+//===============================================================
+
+.searchBar {
+  background-color: powderblue;
+  height: 4em;
+  overflow: hidden;
+  -webkit-box-shadow: -1px -2px 47px 0px rgba(0,0,0,0.65);
+  -moz-box-shadow: -1px -2px 47px 0px rgba(0,0,0,0.65);
+  box-shadow: -1px -2px 47px 0px rgba(0,0,0,0.65);
+  input {
+    height: 2.6em;
+    width: 20em;
+    margin-right: 1em;
+    border-radius: 1em;
+    border-style: solid;
+    border: none;
+    outline: none;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin-top: 0.5em;
+  }
+  button {
+    height: 3em;
+    width: 10em;
+    border-radius: 1em;
+    border-style: solid;
+    border: none;
+    outline: none;
+    background-color: skyblue;
+    color: steelblue;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 0.5em;
+  }
+}

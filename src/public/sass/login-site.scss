@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+@import url('https://fonts.googleapis.com/css?family=Molle:400i');
+@import 'navbar';
+@import 'login';
+@import 'home';
+@import 'error';
+@import 'edit';
+
+
+body {
+  background-color: aliceblue;
+  text-align: center;
+  margin: auto;
+  font-family: 'Varela Round', sans-serif;
+  height: 100%;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header h1 {
+  font-family: 'Molle', cursive;
+  font-size: 5em;
+  color: white;
+}

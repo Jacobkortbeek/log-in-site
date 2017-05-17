@@ -1,0 +1,41 @@
+body main .signUpContainer {
+  background-color: steelblue;
+  width: 70em;
+  height: 40em;
+  margin: auto;
+  margin-top: 10em; }
+  body main .signUpContainer input {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    width: 45em;
+    height: 3em;
+    margin-bottom: 1.5em;
+    border-radius: 0.5em;
+    border-style: solid;
+    border: none;
+    outline: none; }
+  body main .signUpContainer button {
+    width: 35em;
+    height: 2.5em;
+    margin-bottom: 1em;
+    color: aliceblue;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.3em;
+    border-radius: 0.5em;
+    background-color: steelblue;
+    border-style: solid;
+    border: none;
+    outline: none; }
+  body main .signUpContainer button:active {
+    background-color: #6ca2d7; }
+  body main .signUpContainer button:hover {
+    cursor: pointer; }
+  body main .signUpContainer .forgotPwrd {
+    margin: auto;
+    margin-top: 0.5em; }
+    body main .signUpContainer .forgotPwrd p {
+      font-family: 'Varela Round', sans-serif;
+      color: steelblue; }

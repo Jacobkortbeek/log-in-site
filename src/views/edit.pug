@@ -1,0 +1,22 @@
+extends index.pug
+
+block content
+  .columContainer
+    .colum
+      h2 Edit Profile
+      .profile
+        form(method="POST" action="/editUpdate")
+          //--.displayProfileImg
+            img(src="/static/css/assets/wallpaper.png")
+             input(type="file" name="pic" accept="image/*").imgUpload
+          .name
+            p #{name}
+              span  	✎
+          .occupation
+            p #{occupation}
+              span  	✎
+          .email
+            p #{email}
+              span  	✎
+
+          button(type="submit") Save

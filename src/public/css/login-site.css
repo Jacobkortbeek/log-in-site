@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+@import url("https://fonts.googleapis.com/css?family=Molle:400i");
+.navContainer {
+  z-index: 99;
+  background-color: steelblue;
+  width: 43px;
+  height: 43px;
+  border-radius: 100%;
+  left: 2%;
+  top: 4%;
+  position: fixed;
+  transition: all 0.5s ease-in-out; }
+  .navContainer .nav, .navContainer a {
+    color: aliceblue;
+    font-size: 0.2em;
+    margin-top: 7%;
+    display: none; }
+  .navContainer .menuIcon {
+    font-size: 1.6em;
+    margin-top: 12%;
+    transition: all 0.9s ease-in-out; }
+
+.navContainer:hover {
+  width: 172px;
+  height: 172px; }
+  .navContainer:hover .nav, .navContainer:hover a {
+    display: list-item;
+    font-size: 1.2em; }
+  .navContainer:hover .menuIcon {
+    display: none; }
+
+body main .signUpContainer, body main .logInForm {
+  width: 70em;
+  height: 40em;
+  margin: auto;
+  margin-top: 10em; }
+  body main .signUpContainer input, body main .logInForm input {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    width: 45em;
+    height: 3em;
+    margin-bottom: 1.5em;
+    border-radius: 0.5em;
+    border-style: solid;
+    border: none;
+    outline: none; }
+  body main .signUpContainer textarea, body main .logInForm textarea {
+    font-family: 'Varela Round', sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    border-radius: 0.5em;
+    border-style: solid;
+    border: none;
+    outline: none;
+    margin: 0px;
+    height: 15em;
+    width: 45em;
+    margin-bottom: 1.5em; }
+  body main .signUpContainer button, body main .logInForm button {
+    width: 35em;
+    height: 2.5em;
+    margin-bottom: 1em;
+    color: aliceblue;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.3em;
+    border-radius: 0.5em;
+    background-color: steelblue;
+    border-style: solid;
+    border: none;
+    outline: none; }
+  body main .signUpContainer button:active, body main .logInForm button:active {
+    background-color: #6ca2d7; }
+  body main .signUpContainer button:hover, body main .logInForm button:hover {
+    cursor: pointer; }
+  body main .signUpContainer .forgotPwrd, body main .logInForm .forgotPwrd {
+    margin: auto;
+    margin-top: 0.5em; }
+    body main .signUpContainer .forgotPwrd p, body main .logInForm .forgotPwrd p {
+      font-family: 'Varela Round', sans-serif;
+      color: steelblue; }
+
+.colum {
+  width: 35em;
+  height: 60em;
+  border-radius: 1em;
+  color: steelblue;
+  background-color: white;
+  display: inline-block;
+  margin-right: 3em;
+  overflow: hidden; }
+
+.profile .editProfile {
+  width: 5em;
+  height: 1.5em;
+  position: relative;
+  left: 1em;
+  margin-top: 0.9em; }
+  .profile .editProfile p {
+    margin-top: 0.8em;
+    font-size: 1.5em; }
+
+.profile .displayProfileImg {
+  width: 10em;
+  height: 10em;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 3em;
+  overflow: hidden; }
+  .profile .displayProfileImg img {
+    width: 10em;
+    height: 10em; }
+
+.profile p {
+  font-size: 2em;
+  margin-bottom: 3em;
+  color: steelblue; }
+
+.recentOnline {
+  overflow: hidden;
+  background-color: skyblue;
+  margin: auto;
+  height: 8em;
+  width: 34em;
+  border-radius: 1em;
+  margin-top: 0.5em; }
+  .recentOnline .displayPic {
+    overflow: hidden;
+    height: 7em;
+    width: 7em;
+    border-radius: 1em;
+    margin-left: 0.5em;
+    margin-top: 0.3em; }
+  .recentOnline img {
+    height: 7em;
+    width: 7em; }
+  .recentOnline p {
+    margin-left: 6em; }
+
+.searchBar {
+  background-color: powderblue;
+  height: 4em;
+  overflow: hidden;
+  -webkit-box-shadow: -1px -2px 47px 0px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: -1px -2px 47px 0px rgba(0, 0, 0, 0.65);
+  box-shadow: -1px -2px 47px 0px rgba(0, 0, 0, 0.65); }
+  .searchBar input {
+    height: 2.6em;
+    width: 20em;
+    margin-right: 1em;
+    border-radius: 1em;
+    border-style: solid;
+    border: none;
+    outline: none;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin-top: 0.5em; }
+  .searchBar button {
+    height: 3em;
+    width: 10em;
+    border-radius: 1em;
+    border-style: solid;
+    border: none;
+    outline: none;
+    background-color: skyblue;
+    color: steelblue;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 0.5em; }
+
+.errorBanner {
+  background-color: #FF8787; }
+
+.columContainer input {
+  background-color: aliceblue;
+  border-radius: 0.2em;
+  border-style: solid;
+  border: none;
+  outline: none; }
+
+.columContainer button {
+  width: 5em;
+  height: 2.5em;
+  margin-bottom: 1em;
+  color: aliceblue;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.3em;
+  border-radius: 0.5em;
+  background-color: steelblue;
+  border-style: solid;
+  border: none;
+  outline: none; }
+
+body {
+  background-color: aliceblue;
+  text-align: center;
+  margin: auto;
+  font-family: 'Varela Round', sans-serif;
+  height: 100%; }
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+  list-style-type: none; }
+
+header h1 {
+  font-family: 'Molle', cursive;
+  font-size: 5em;
+  color: white; }

@@ -1,0 +1,14 @@
+.navContainer
+  .menuIcon ☰
+  nav.nav
+    if currentUser
+      a(href="home") Home
+    if currentUser
+      a(href="edit") Edit
+    a(href="contact") Contact
+    if !currentUser
+      a(href="register") Sign Up
+    if !currentUser
+      a(href="/") Login
+    if currentUser
+      a(href="/signout") Sign Out

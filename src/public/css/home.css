@@ -1,0 +1,86 @@
+.colum {
+  width: 35em;
+  height: 60em;
+  border-radius: 1em;
+  color: steelblue;
+  background-color: white;
+  display: inline-block;
+  margin-right: 3em;
+  overflow: hidden; }
+
+.profile .editProfile {
+  width: 5em;
+  height: 1.5em;
+  position: relative;
+  left: 1em;
+  margin-top: 0.9em; }
+  .profile .editProfile p {
+    margin-top: 0.8em;
+    font-size: 1.5em; }
+
+.profile .displayProfileImg {
+  width: 10em;
+  height: 10em;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 3em;
+  overflow: hidden; }
+  .profile .displayProfileImg img {
+    width: 10em;
+    height: 10em; }
+
+.profile p {
+  font-size: 2em;
+  margin-bottom: 3em;
+  color: steelblue; }
+
+.recentOnline {
+  overflow: hidden;
+  background-color: skyblue;
+  margin: auto;
+  height: 8em;
+  width: 34em;
+  border-radius: 1em;
+  margin-top: 0.5em; }
+  .recentOnline .displayPic {
+    overflow: hidden;
+    height: 7em;
+    width: 7em;
+    border-radius: 1em;
+    margin-left: 0.5em;
+    margin-top: 0.3em; }
+  .recentOnline img {
+    height: 7em;
+    width: 7em; }
+  .recentOnline p {
+    margin-left: 6em; }
+
+.searchBar {
+  background-color: powderblue;
+  height: 4em;
+  overflow: hidden;
+  -webkit-box-shadow: -1px -2px 47px 0px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: -1px -2px 47px 0px rgba(0, 0, 0, 0.65);
+  box-shadow: -1px -2px 47px 0px rgba(0, 0, 0, 0.65); }
+  .searchBar input {
+    height: 2.6em;
+    width: 20em;
+    margin-right: 1em;
+    border-radius: 1em;
+    border-style: solid;
+    border: none;
+    outline: none;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin-top: 0.5em; }
+  .searchBar button {
+    height: 3em;
+    width: 10em;
+    border-radius: 1em;
+    border-style: solid;
+    border: none;
+    outline: none;
+    background-color: skyblue;
+    color: steelblue;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 0.5em; }

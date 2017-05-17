@@ -1,0 +1,19 @@
+.columContainer input {
+  background-color: aliceblue;
+  border-radius: 0.2em;
+  border-style: solid;
+  border: none;
+  outline: none; }
+
+.columContainer button {
+  width: 5em;
+  height: 2.5em;
+  margin-bottom: 1em;
+  color: aliceblue;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.3em;
+  border-radius: 0.5em;
+  background-color: steelblue;
+  border-style: solid;
+  border: none;
+  outline: none; }

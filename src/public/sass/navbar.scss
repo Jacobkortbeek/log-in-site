@@ -1,0 +1,36 @@
+.navContainer {
+  z-index: 99;
+  background-color: steelblue;
+  width: 43px;
+  height: 43px;
+  border-radius: 100%;
+  left: 2%;
+  top: 4%;
+  position: fixed;
+  transition: all 0.5s ease-in-out;
+
+
+  .nav, a {
+    color: aliceblue;
+    font-size: 0.2em;
+    margin-top: 7%;
+    display: none;
+  }
+
+  .menuIcon {
+    font-size: 1.6em;
+    margin-top: 12%;
+    transition: all 0.9s ease-in-out;
+  }
+}
+.navContainer:hover {
+  width: 172px;
+  height: 172px;
+  .nav, a {
+    display: list-item;
+    font-size: 1.2em;
+  }
+  .menuIcon {
+    display: none;
+  }
+}
